@@ -1,14 +1,38 @@
 
 # CryptoHunter – Real-Time Cryptocurrency Tracker
+
 The Crypto Hunter is an innovative web application that empowers users to stay ahead in the fast-paced world of cryptocurrency. By leveraging real-time data from the CoinGecko API, it provides seamless tracking of prices and trends, helping investors make informed decisions with confidence.
 
-## 🔗 Links
-- **Presentation:** 
-https://drive.google.com/file/d/1kril-8oMa9Xwzr_HTq0QLm9IxsvqIIrK/view?usp=sharing
 ---
 
-## Project Structure
-```plaintext
+##  Links
+
+- **Presentation**: 
+
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/crypto-hunter.git
+   cd crypto-hunter
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the app:
+   ```bash
+   npm start
+   ```
+
+---
+
+##  Project Structure
 CryptoHunter/
 │
 ├── public/
@@ -47,73 +71,34 @@ CryptoHunter/
 
 ---
 
-## ⚙️ Requirements
-- **Frontend:** React.js
-- **Charting:** Chart.js
-- **Routing:** React Router DOM
-- **UI:** Material-UI
-- **API:** CoinGecko
-- **HTTP Client:** Axios
-- **Deployment:** Netlify
-
----
-
-## Setup Instructions
-1. Clone the repository:
-```bash
-git clone https://github.com/ayeshakhurana/crypto-hunter.git
-cd crypto-hunter
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
----
-
 ##  Dependencies
-- **axios:** For making API requests.
-- **react-router-dom:** For routing between pages.
-- **chart.js** & **react-chartjs-2:** For rendering interactive price charts.
-- **@mui/material:** For responsive UI components.
+
+- **React.js**
+- **Material UI**
+- **Chart.js**
+- **React Router**
+- **CoinGecko API**
 
 ---
 
-##  API
-- **CoinGecko API**: Real-time cryptocurrency data including prices, market cap, and historical data.
-> Note: Downtime or rate limits from CoinGecko API may temporarily disrupt updates.
+##  Requirements
+
+- Node.js & npm installed
 
 ---
 
-##  Hosting & Connectivity
-- **Hosting Platform:** Netlify (limitations may affect uptime or build frequency)
-- **Internet:** Required for fetching real-time data
+
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Material UI
+- **Charts**: Chart.js
+- **API**: CoinGecko (for cryptocurrency data)
+- **Routing**: React Router
+- **Backend**: Firebase Studio (Currently working on the same)
 
 ---
 
-##  Browser Compatibility
-Responsive across devices, but performance may vary on older browsers.
+##  License
 
-
----
-
-##  Tech Stack
-- **Frontend Framework:** React.js
-- **Charting Library:** Chart.js via react-chartjs-2
-- **HTTP Client:** Axios
-- **Routing:** React Router DOM
-- **UI Components:** Material-UI
-- **API:** CoinGecko API
-- **Deployment:** Netlify
-- **Version Control:** Git & GitHub
-
----
-
-## 📄 License
 This project is licensed under the MIT License.
