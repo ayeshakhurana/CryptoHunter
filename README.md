@@ -1,13 +1,17 @@
+# 💰 CryptoHunter – Real-Time Cryptocurrency Tracker
 
-# CryptoHunter – Real-Time Cryptocurrency Tracker
-The Crypto Hunter is an innovative web application that empowers users to stay ahead in the fast-paced world of cryptocurrency. By leveraging real-time data from the CoinGecko API, it provides seamless tracking of prices and trends, helping investors make informed decisions with confidence.
-
-## 🔗 Links
-- **Presentation:https://drive.google.com/file/d/1kril-8oMa9Xwzr_HTq0QLm9IxsvqIIrK/view?usp=sharing** 
+CryptoHunter is an innovative web application that empowers users to stay ahead in the fast-paced world of cryptocurrency. By leveraging real-time data from the CoinGecko API, it provides seamless tracking of prices and trends—helping investors make informed decisions with confidence.
 
 ---
 
-## Project Structure
+## 🔗 Links
+
+- **🎥 Presentation:** [Watch here](https://drive.google.com/file/d/1kril-8oMa9Xwzr_HTq0QLm9IxsvqIIrK/view?usp=sharing)
+
+---
+
+## 📁 Project Structure
+
 ```plaintext
 CryptoHunter/
 │
@@ -40,83 +44,106 @@ CryptoHunter/
     ├── CryptoContext.js
     ├── index.css
     ├── index.js
-    ├── .gitignore
-    ├── README.md
-    ├── package-lock.json
-    ├── package.json
-```
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
 ```
 
 ---
 
 ## ⚙️ Requirements
-- **Frontend:** React.js
-- **Charting:** Chart.js
-- **Routing:** React Router DOM
-- **UI:** Material-UI
-- **API:** CoinGecko
-- **HTTP Client:** Axios
-- **Deployment:** Netlify
+
+- **Frontend:** React.js  
+- **Charting:** Chart.js  
+- **Routing:** React Router DOM  
+- **UI Components:** Material-UI  
+- **API:** CoinGecko  
+- **HTTP Client:** Axios  
+- **Deployment:** Netlify  
 
 ---
 
-## Setup Instructions
-1. Clone the repository:
-```bash
-git clone https://github.com/ayeshakhurana/crypto-hunter.git
-cd crypto-hunter
-```
+## 🚀 Setup Instructions
 
-2. Install dependencies:
-```bash
-npm install
-```
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/ayeshakhurana/crypto-hunter.git
+   cd crypto-hunter
+   ```
 
-3. Start the development server:
-```bash
-npm start
-```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
----
-
-##  Dependencies
-- **axios:** For making API requests.
-- **react-router-dom:** For routing between pages.
-- **chart.js** & **react-chartjs-2:** For rendering interactive price charts.
-- **@material-ui/core:** For responsive UI components.
+3. **Start the Development Server**
+   ```bash
+   npm start
+   ```
 
 ---
 
-##  API
-- **CoinGecko API**: Real-time cryptocurrency data including prices, market cap, and historical data.
-> Note: Downtime or rate limits from CoinGecko API may temporarily disrupt updates.
+## 📦 Dependencies
+
+- **axios** – For making HTTP requests  
+- **react-router-dom** – For page routing  
+- **chart.js** & **react-chartjs-2** – For interactive chart visualizations  
+- **@material-ui/core** – For modern, responsive UI components  
 
 ---
 
-##  Hosting & Connectivity
-- **Hosting Platform:** Netlify (limitations may affect uptime or build frequency)
-- **Internet:** Required for fetching real-time data
+## 📡 API
+
+- **CoinGecko API** – Provides real-time cryptocurrency data including:
+  - Live prices
+  - Market cap
+  - Historical data
+
+> ⚠️ **Note:** CoinGecko’s rate limits or downtime may temporarily affect data fetching.
 
 ---
 
-##  Browser Compatibility
-Responsive across devices, but performance may vary on older browsers.
+## 🌐 Hosting & Connectivity
+
+- **Hosting Platform:** Netlify  
+- **Internet Connection:** Required for fetching live crypto data  
 
 ---
 
+## 🧭 Browser Compatibility
+
+- Fully responsive across modern browsers and devices  
+- Performance may vary slightly on older browser versions  
+
 ---
 
-##  Tech Stack
-- **Frontend Framework:** React.js
-- **Charting Library:** Chart.js via react-chartjs-2
-- **HTTP Client:** Axios
-- **Routing:** React Router DOM
-- **UI Components:** Material-UI
-- **API:** CoinGecko API
-- **Deployment:** Netlify
-- **Version Control:** Git & GitHub
+## 🛠️ Tech Stack
+
+| Layer          | Technology         |
+|----------------|--------------------|
+| Frontend       | React.js           |
+| Routing        | React Router DOM   |
+| Charts         | Chart.js + react-chartjs-2 |
+| HTTP Client    | Axios              |
+| UI Components  | Material-UI        |
+| API            | CoinGecko          |
+| Deployment     | Netlify            |
+| Version Control| Git + GitHub       |
 
 ---
 
 ## 📄 License
-This project is licensed under the MIT License.
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+```
+
+Let me know if you'd like to add:
+- Screenshots or demo GIFs
+- Contributing guidelines
+- FAQ or Troubleshooting section
+
+Happy coding 🚀
