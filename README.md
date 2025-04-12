@@ -36,7 +36,7 @@ Future Enhancements
 
 Tech Stack
 •	- React JS – Frontend library
-•	- Material UI – Pre-styled component library
+•	- Material UI – Pre-styled  component library
 •	- Chart.js – Visualization for historical data
 •	- CoinGecko API – Cryptocurrency market data
 •	- React Router – Page navigation
