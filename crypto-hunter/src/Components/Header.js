@@ -24,6 +24,7 @@ import {
   const Header = () => {
     const navigate = useNavigate();
     const { currency, setCurrency } = CryptoState();
+    console.log(currency)
   
     return (
       <ThemeProvider theme={darkTheme}>
