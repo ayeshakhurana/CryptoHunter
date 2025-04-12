@@ -1,5 +1,8 @@
-import React from 'react'
-import { makeStyles } from '@mui/material';
+import React, { useEffect, useState } from 'react'
+import { makeStyles } from '@mui/styles';
+import { TrendingCoins } from '../../config/api';
+import axios from "axios";
+import { CryptoState } from "../../CryptoContext";
 
 const useStyles = makeStyles((theme) => ({
     carousel: {
@@ -9,11 +12,18 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 const Carousel = () => {
+    const [trending, setTrending] = useState([]);
     const classes=useStyles()
-
-    const fetchTrendingCoins=()=>{
-        const { data }=  axios.get(TrendingCoins())
-    }
+    const { currency }=CryptoState()
+    const fetchTrendingCoins= async ()=>{
+        const { data }=await axios.get(TrendingCoins(currency))
+        setTrending(data)
+    };
+    console.log(trending )
+    useEffect(()=>{
+        fetchTrendingCoins()
+    }, [currency]);
+    
   return (
     <div className={classes.Carousel}>
         Carousel
