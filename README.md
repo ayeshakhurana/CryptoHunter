@@ -137,13 +137,4 @@ CryptoHunter/
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
----
 
-```
-
-Let me know if you'd like to add:
-- Screenshots or demo GIFs
-- Contributing guidelines
-- FAQ or Troubleshooting section
-
-Happy coding 🚀
