@@ -93,6 +93,7 @@ crypto-hunter/
 - **Charts**: Chart.js
 - **API**: CoinGecko (for cryptocurrency data)
 - **Routing**: React Router
+- **Backend**: Firebase Studio (Currently working on the same)
 
 ---
 
