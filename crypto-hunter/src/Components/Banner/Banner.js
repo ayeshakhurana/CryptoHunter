@@ -1,10 +1,11 @@
 import { Container, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import React from 'react';
+import Carousel from './Carousel';
 
 const useStyles = makeStyles(() => ({
   banner: {
-    backgroundImage: "url(/image.png)", // Correct path from public folder
+    backgroundImage: "url(/image.png)", 
     backgroundSize: "cover",
     backgroundPosition: "center",
   },
@@ -52,6 +53,7 @@ const Banner = () => {
             Get all the Info regarding your favorite Crypto Currency
           </Typography>
         </div>
+        <Carousel/>
       </Container>
     </div>
   );
